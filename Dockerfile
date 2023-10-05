@@ -11,5 +11,5 @@ COPY /root/.m2/repository/com/example/mywebapp/1.0.0/mywebapp-1.0.0.war .
 EXPOSE 8080
 
 # Specify the command to run your application when the container starts
-CMD ["java", "-war", "mywebapp-1.0.0.wa.war"]
+CMD ["java", "-war", "mywebapp-1.0.0.war"]
 
