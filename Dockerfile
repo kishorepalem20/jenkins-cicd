@@ -5,7 +5,7 @@ FROM openjdk:8-jre-alpine
 WORKDIR /app
 
 # Copy the compiled JAR file and any necessary resources into the container
-COPY  /root/.jenkins/workspace/ravidemo/target/mywebapp-1.0.0.war. 
+COPY  /root/.jenkins/workspace/ravidemo/target/mywebapp-1.0.0.war . 
 
 # Expose the port your application will run on (adjust as needed)
 EXPOSE 8080
